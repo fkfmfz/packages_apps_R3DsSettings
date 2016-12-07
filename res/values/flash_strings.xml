@@ -331,6 +331,7 @@
     <string name="qs_easy_toggle_title">Advanced QS easy toggle</string>
     <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, Wi-Fi, location, and Bluetooth</string>
     <!-- Quick settings tiles columns and rows config -->
+    <string name="sysui_qqs_count_title">Small QS tiles</string>
     <string name="qs_layout_category">QS tiles layout</string>
     <string name="qs_columns_title">Columns</string>
     <string name="qs_rows_portrait_title">Rows (portrait)</string>
@@ -338,8 +339,6 @@
     <string name="qs_tile_title_visibility_title">QS tile titles</string>
     <string name="qs_tile_title_visibility_summary_on">QS tile titles are on</string>
     <string name="qs_tile_title_visibility_summary_off">QS tile titles are off</string>
-    <string name="qqs_scroll_title">Scroll small QS tiles</string>
-    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
     <!-- QS Header Icons -->
     <string name="qs_settings_icon_title">Hide settings shortcut</string>
     <string name="qs_settings_icon_summary">Remove the settings shortcut in the header</string>
