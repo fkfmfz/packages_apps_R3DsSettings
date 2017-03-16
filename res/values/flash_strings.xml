@@ -675,4 +675,8 @@
     <string name="wakelock_blocker_reload">Reload</string>
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <!-- In-call DND -->
+    <string name="dnd_when_call_title">In-Call Do not Disturb</string>
+    <string name="dnd_when_call_summary">Enable Do not Disturb mode during calls</string>
 </resources>
