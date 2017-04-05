@@ -20,12 +20,12 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
-        <PreferenceScreen
+        <!-- <PreferenceScreen
             android:title="@string/lockscreen_targets_message" >
             <intent
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.flash.LockscreenShortcutsActivity" />
-        </PreferenceScreen>
+        </PreferenceScreen> -->
 
         <PreferenceScreen
             android:fragment="com.flash.settings.fragments.LockScreenItemsSettings"

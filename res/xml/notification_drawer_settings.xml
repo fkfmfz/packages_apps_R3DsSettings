@@ -33,11 +33,6 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/qs_panel_title">
-
         <com.flash.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_brightness_slider_title"
@@ -51,16 +46,27 @@
             android:dependency="qs_show_brightness"
             android:defaultValue="false"/>
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
-            android:key="quick_settings_vibrate"
-            android:title="@string/quick_settings_vibrate_title"
-            android:summary="@string/quick_settings_vibrate_summary"
-            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/qs_panel_title">
 
         <com.flash.settings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_qs_disabled"
             android:title="@string/lockscreen_qs_disabled_title"
             android:summary="@string/lockscreen_qs_disabled_summary"/>
+
+        <com.flash.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_easy_toggle"
+            android:title="@string/qs_easy_toggle_title"
+            android:summary="@string/qs_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.flash.settings.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
 
         <com.flash.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_title_visibility"
@@ -69,16 +75,16 @@
             android:summaryOff="@string/qs_tile_title_visibility_summary_off"
             android:defaultValue="true"/>
 
-        <com.flash.settings.preferences.SecureSettingSwitchPreference
-            android:key="qs_easy_toggle"
-            android:title="@string/qs_easy_toggle_title"
-            android:summary="@string/qs_easy_toggle_summary"
-            android:defaultValue="false" />
+       <com.flash.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_quickbar_scroll_enabled"
+            android:title="@string/qqs_scroll_title"
+            android:summary="@string/qqs_scroll_summary"
+            android:defaultValue="false"/>
 
         <com.flash.settings.preferences.CustomSeekBarPreference
             android:key="qs_layout_columns"
             android:title="@string/qs_columns_title"
-            android:max="9"
+            android:max="7"
             settings:min="1"
             settings:units=""
             android:persistent="false" />
@@ -86,7 +92,7 @@
         <com.flash.settings.preferences.CustomSeekBarPreference
             android:key="qs_rows_portrait"
             android:title="@string/qs_rows_portrait_title"
-            android:max="7"
+            android:max="5"
             settings:min="1"
             settings:units=""
             android:persistent="false" />
@@ -98,12 +104,6 @@
             settings:min="1"
             settings:units=""
             android:persistent="false" />
-
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_quickbar_scroll_enabled"
-            android:title="@string/qqs_scroll_title"
-            android:summary="@string/qqs_scroll_summary"
-            android:defaultValue="false"/>
 
     </PreferenceCategory>
 

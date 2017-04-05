@@ -16,9 +16,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Categories -->
-    <string name="flash_interface">Interface</string>
-    <string name="flash_buttons">Buttons</string>
-    <string name="flash_system">System</string>
+    <string name="six_interface">Interface</string>
+    <string name="six_buttons">Misc</string>
+    <string name="six_system">System</string>
 
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
@@ -121,7 +121,7 @@
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     <!-- Quick Settings on lockscreen -->
     <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
-    <string name="lockscreen_qs_disabled_summary">Disable shortcuts and expanding quick settings on secure lock screens</string>
+    <string name="lockscreen_qs_disabled_summary">Disable shortcuts and expanding quick settings on secure lockscreens</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock after reboot</string>
     <string name="fp_unlock_keystore_summary">Allow device to always be unlocked with fingerprint, even after reboot</string>
@@ -298,10 +298,10 @@
     <string name="navbar_buttons_alpha_title">Button transparency</string>
 
     <!-- Notification drawer fragment -->
-    <string name="notification_drawer_settings_title">Notification drawer</string>
-    <string name="notification_panel_title">Notification panel</string>
+    <string name="notification_drawer_settings_title">Notification &amp; QS tiles</string>
+    <string name="notification_panel_title">Notification settings panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
-    <string name="qs_header_title">Quick settings header</string>
+    <string name="qs_header_title">Headers settings panel</string>
     <!-- qs brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
@@ -310,8 +310,8 @@
     <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the statusbar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary_always">Always show Quick Settings on statusbar pulldown</string>
     <string name="quick_pulldown_off">Off</string>
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
@@ -328,7 +328,7 @@
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
     <!-- QS easy toggles -->
-    <string name="qs_easy_toggle_title">Advanced QS Easy Toggle</string>
+    <string name="qs_easy_toggle_title">Advanced QS easy toggle</string>
     <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, Wi-Fi, location, and Bluetooth</string>
     <!-- Quick settings tiles columns and rows config -->
     <string name="qs_layout_category">QS tiles layout</string>
@@ -369,13 +369,13 @@
     <string name="dbl_tap_vib_title">Double tap power for camera vibration</string>
     <string name="dbl_tap_vib_summary">Vibrate on double tap of power button when enabled</string>
     <!-- Heads up settings -->
-    <string name="headsup_settings_title">Peeking notifications</string>
-    <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Peeking notifications.</string>
+    <string name="headsup_settings_title">Heads-up notifications</string>
+    <string name="summary_heads_up_enabled">Heads-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Heads-up notifications are disabled</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads-up notifications.</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_summary">Heads-up notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
     <string name="heads_up_time_out_2sec">2 seconds</string>
     <string name="heads_up_time_out_4sec">4 seconds</string>
     <string name="heads_up_time_out_5sec">5 seconds</string>
@@ -384,8 +384,8 @@
     <string name="heads_up_time_out_10sec">10 seconds</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on Heads-up notifications will snooze heads up from that application for 1 minute</string>
+    <string name="heads_up_snooze_summary">Swiping up on Heads-up notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
     <string name="heads_up_snooze_1min">1 minute</string>
     <string name="heads_up_snooze_3min">3 minutes</string>
@@ -395,7 +395,7 @@
     <string name="heads_up_snooze_20min">20 minutes</string>
 
     <!-- Miscellaneous fragment -->
-    <string name="misc_settings_title">Miscellaneous</string>
+    <string name="misc_settings_title">Other</string>
     <!-- Toast Icons -->
     <string name="toast_icon_title">Toast icon</string>
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
@@ -429,7 +429,7 @@
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Show power menu on secure lock screen</string>
+    <string name="lockscreen_enable_power_menu_title">Show power menu on secure lockscreen</string>
     <!-- Power menu dialog dim -->
     <string name="powermenu_dialog_dim">Dialog dim background amount</string>
     <!-- Power menu Animations  -->
@@ -461,13 +461,13 @@
     <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- Status Bar fragment -->
-    <string name="statusbar_settings_title">Status bar</string>
+    <string name="statusbar_settings_title">Statusbar</string>
     <!-- statusbar icon blacklist -->
-    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
-    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+    <string name="status_bar_icon_blacklist_title">Statusbar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on statusbar</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the statusbar</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Carrier label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
@@ -507,12 +507,12 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the statusbar to put the device to sleep</string>
     <!-- Network traffic Settings -->
     <string name="nettraffic_settings_title">Network traffic</string>
     <string name="nettraffic_settings_summary">Network traffic options</string>
     <!-- Network traffic options -->
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="show_network_traffic_state">Statusbar traffic monitor</string>
     <string name="show_network_traffic_unit">Display unit</string>
     <string name="show_network_traffic_frequency">Update interval</string>
     <string name="show_network_traffic_disable">Disabled</string>
@@ -587,8 +587,8 @@
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery style</string>
-    <string name="status_bar_battery_style_summary">Customize the look of the status bar battery icon</string>
-    <string name="status_bar_battery_style_title">Status bar battery style</string>
+    <string name="status_bar_battery_style_summary">Customize the look of the statusbar battery icon</string>
+    <string name="status_bar_battery_style_title">Statusbar battery style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
     <string name="status_bar_battery_style_circle">Circle</string>
@@ -601,15 +601,15 @@
     <string name="status_bar_battery_percentage_low_only_title">Percent only when battery is low</string>
     <string name="status_bar_battery_percentage_low_only_summary">Show battery percentage only when the battery level is under %1$d%%</string>
     <string name="battery_tile_style_title">Battery tile style</string>
-    <string name="status_bar_charge_color_title">Status bar battery icon charging color</string>
+    <string name="status_bar_charge_color_title">Statusbar battery icon charging color</string>
     <string name="status_bar_charge_color_summary">Set the color of the statusbar battery icon while charging</string>
-    <string name="force_charge_battery_text_title">Status bar battery charging percent</string>
+    <string name="force_charge_battery_text_title">Statusbar battery charging percent</string>
     <string name="force_charge_battery_text_summary_on">Show the battery percentage outside the icon while charging</string>
     <string name="force_charge_battery_text_summary_off">Show the battery percentage inside the icon while charging</string>
     <string name="text_charging_symbol_title">Charging symbol near percentage text</string>
     <string name="text_charging_symbol_dialog">Show a symbol near percentage text outside the battery icon when charging</string>
     <string name="text_charging_symbol_default">Disabled</string>
-    <string name="text_charging_symbol_flash">Flash</string>
+    <string name="text_charging_symbol_flash">Volt</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
 
     <!-- Launch music player when headset is connected -->
@@ -632,7 +632,48 @@
 
     <!-- Ticker -->
     <string name="ticker_title">Ticker</string>
-    <string name="ticker_summary">Enable the old status bar notification ticker. Do not use in conjunction with Heads Up.</string>
+    <string name="ticker_summary">Enable the old statusbar notification ticker. Do not use in conjunction with Heads Up.</string>
     <string name="track_ticker_title">Show music track changes</string>
     <string name="track_ticker_summary">When the track changes while playing music, the ticker will show the change.</string>
+
+    <!-- CPU info -->
+    <string name="show_cpu_title">Show CPU info</string>
+    <string name="show_cpu_summary">Screen overlay showing current CPU info</string>
+
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspend actions</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
+    <string name="screen_state_toggles_location_title">Data and location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G (GSM ONLY)</string>
+    <string name="screen_state_toggles_twog_summary">(WARNING: CDMA will turn-off the network. Use with Caution!) Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
+    <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
+    <string name="screen_state_on_delay_title">Screen On actions delay</string>
+    <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker_title">Enable</string>
+    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_save">Save</string>
+    <string name="alarm_list_header">Available alarms</string>
+    <string name="alarm_blocker_reload">Reload</string>
+    <string name="alarm_blocker_warning_title">Proceed with caution</string>
+    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
 </resources>
