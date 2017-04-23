@@ -15,16 +15,28 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+         android:id="@+id/alarm_blocker"
+         android:title="@string/alarm_blocker"
+         android:summary="@string/alarm_blocker_summary"
+         android:fragment="com.flash.settings.fragments.AlarmBlocker" />
+
+    <Preference
+        android:key="wakelock_blocker"
+        android:title="@string/wakelock_blocker_title"
+        android:summary="@string/wakelock_blocker_summary"
+        android:fragment="com.flash.settings.fragments.WakeLockBlocker" />
+
     <com.flash.settings.preferences.SystemSettingSwitchPreference
         android:key="dnd_when_call"
         android:title="@string/dnd_when_call_title"
         android:summary="@string/dnd_when_call_summary"
         android:defaultValue="true" />
 
-    <com.flash.settings.preferences.GlobalSettingSwitchPreference
+    <!-- <com.flash.settings.preferences.GlobalSettingSwitchPreference
          android:key="show_cpu"
          android:title="@string/show_cpu_title"
-         android:summary="@string/show_cpu_summary" />
+         android:summary="@string/show_cpu_summary" /> -->
 
     <com.flash.settings.preferences.SystemSettingSwitchPreference
          android:key="toast_icon"
@@ -49,15 +61,5 @@
          settings:interval="100"
          settings:units="ms"
          android:persistent="false" />
-
-    <Preference
-         android:id="@+id/alarm_blocker"
-         android:title="@string/alarm_blocker"
-         android:fragment="com.flash.settings.fragments.AlarmBlocker" />
-
-    <Preference
-        android:key="wakelock_blocker"
-        android:title="@string/wakelock_blocker_title"
-        android:fragment="com.flash.settings.fragments.WakeLockBlocker" />
 
 </PreferenceScreen>
