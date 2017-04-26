@@ -33,11 +33,6 @@
         android:summary="@string/dnd_when_call_summary"
         android:defaultValue="true" />
 
-    <!-- <com.flash.settings.preferences.GlobalSettingSwitchPreference
-         android:key="show_cpu"
-         android:title="@string/show_cpu_title"
-         android:summary="@string/show_cpu_summary" /> -->
-
     <com.flash.settings.preferences.SystemSettingSwitchPreference
          android:key="toast_icon"
          android:title="@string/toast_icon_title"
@@ -61,5 +56,10 @@
          settings:interval="100"
          settings:units="ms"
          android:persistent="false" />
+
+     <!-- <com.flash.settings.preferences.GlobalSettingSwitchPreference
+         android:key="show_cpu"
+         android:title="@string/show_cpu_title"
+         android:summary="@string/show_cpu_summary" /> -->
 
 </PreferenceScreen>
