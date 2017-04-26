@@ -110,7 +110,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/qs_header_title">
+        android:title="@string/battery_bar_cat">
 
         <com.flash.settings.preferences.SystemSettingSwitchPreference
             android:key="status_bar_custom_header"
