@@ -1,4 +1,4 @@
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,15 +19,15 @@
          android:id="@+id/alarm_blocker"
          android:title="@string/alarm_blocker"
          android:summary="@string/alarm_blocker_summary"
-         android:fragment="com.flash.settings.fragments.AlarmBlocker" />
+         android:fragment="com.six.settings.fragments.AlarmBlocker" />
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="dnd_when_call"
         android:title="@string/dnd_when_call_title"
         android:summary="@string/dnd_when_call_summary"
         android:defaultValue="true" />
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
          android:key="toast_icon"
          android:title="@string/toast_icon_title"
          android:summary="@string/toast_icon_summary"
@@ -41,7 +41,7 @@
          android:entries="@array/entries_scrollingcache"
          android:entryValues="@array/values_scrollingcache" />
 
-    <com.flash.settings.preferences.CustomSeekBarPreference
+    <com.six.settings.preferences.CustomSeekBarPreference
          android:key="screenshot_delay"
          android:title="@string/screenshot_delay_title"
          android:summary="@string/screenshot_delay_summary"

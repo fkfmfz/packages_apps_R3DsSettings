@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,26 +17,26 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">	    
 
     <PreferenceScreen
-        android:fragment="com.flash.settings.fragments.StatusbarBatteryStyle"
+        android:fragment="com.six.settings.fragments.StatusbarBatteryStyle"
         android:key="status_bar_battery_style"
         android:title="@string/status_bar_battery_style_category"
         android:summary="@string/status_bar_battery_style_summary" />
 
     <PreferenceScreen
-        android:fragment="com.flash.settings.fragments.CarrierLabelSettings"
-        android:key="flash_carrier_label_settings"
+        android:fragment="com.six.settings.fragments.CarrierLabelSettings"
+        android:key="six_carrier_label_settings"
         android:title="@string/carrier_label_settings_title"
         android:summary="@string/carrier_label_settings_summary" />
 
     <PreferenceScreen
-        android:fragment="com.flash.settings.fragments.ClockSettings"
-        android:key="flash_clock_settings"
+        android:fragment="com.six.settings.fragments.ClockSettings"
+        android:key="six_clock_settings"
         android:title="@string/clock_settings_title"
         android:summary="@string/clock_settings_summary" />
 
     <PreferenceScreen
-        android:fragment="com.flash.settings.fragments.NetworkTrafficSettings"
-        android:key="flash_nettraffic_settings"
+        android:fragment="com.six.settings.fragments.NetworkTrafficSettings"
+        android:key="six_nettraffic_settings"
         android:title="@string/nettraffic_settings_title"
         android:summary="@string/nettraffic_settings_summary" />
 
@@ -48,25 +48,25 @@
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
     </PreferenceScreen>
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
         android:title="@string/status_bar_toggle_brightness"
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false" />
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_notif_count"
         android:title="@string/status_bar_notif_count_title"
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="bluetooth_show_battery"
         android:title="@string/bluetooth_battery_title"
         android:summary="@string/bluetooth_battery_summary"

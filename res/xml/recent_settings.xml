@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@
         android:entryValues="@array/immersive_recents_values"
         android:persistent="false" />
 
-    <com.flash.settings.preferences.SystemSettingSwitchPreference
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="show_clear_all_recents"
         android:title="@string/show_clear_all_recents_button_title"
         android:summaryOn="@string/show_clear_all_recents_button_summary_on"

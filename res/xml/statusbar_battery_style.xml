@@ -34,7 +34,7 @@
         android:title="@string/battery_bar_color"
         android:defaultValue="0xffffffff" />
 
-    <com.flash.settings.preferences.SecureSettingSwitchPreference
+    <com.six.settings.preferences.SecureSettingSwitchPreference
         android:key="battery_bar_enable_charging_color"
         android:title="@string/battery_bar_use_charging_color"
         android:defaultValue="true" />
@@ -45,13 +45,13 @@
         android:defaultValue="0xffffffff"
         android:dependency="battery_bar_enable_charging_color" />
 
-    <com.flash.settings.preferences.SecureSettingSwitchPreference
+    <com.six.settings.preferences.SecureSettingSwitchPreference
         android:key="battery_bar_blend_color"
         android:title="@string/battery_bar_blend_color_title"
         android:summary="@string/battery_bar_blend_color_summary"
         android:defaultValue="false" />
 
-    <com.flash.settings.preferences.SecureSettingSwitchPreference
+    <com.six.settings.preferences.SecureSettingSwitchPreference
         android:key="battery_bar_blend_color_reverse"
         android:title="@string/battery_bar_blend_color_reverse_title"
         android:summaryOn="@string/battery_bar_blend_color_reverse_summary_on"
@@ -101,7 +101,7 @@
         android:entryValues="@array/status_bar_battery_percentage_values"
         android:defaultValue="1" />
 
-    <com.flash.settings.preferences.SecureSettingSwitchPreference
+    <com.six.settings.preferences.SecureSettingSwitchPreference
         android:key="status_bar_show_battery_percent_low_only"
         android:title="@string/status_bar_battery_percentage_low_only_title"
         android:summary="@string/status_bar_battery_percentage_low_only_summary"
@@ -114,7 +114,7 @@
         android:persistent="false"
         android:defaultValue="0xffffff" />
 
-    <com.flash.settings.preferences.SecureSettingSwitchPreference
+    <com.six.settings.preferences.SecureSettingSwitchPreference
         android:key="force_charge_battery_text"
         android:title="@string/force_charge_battery_text_title"
         android:summaryOn="@string/force_charge_battery_text_summary_on"

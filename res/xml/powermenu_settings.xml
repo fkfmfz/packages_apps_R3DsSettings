@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
         android:key="power_category"
         android:title="@string/power_category" >
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_enable_power_menu"
             android:title="@string/lockscreen_enable_power_menu_title"
             android:defaultValue="true" />
@@ -34,7 +34,7 @@
             android:summary="@string/power_menu_animation_summary"
             android:persistent="false" />
 
-        <com.flash.settings.preferences.CustomSeekBarPreference
+        <com.six.settings.preferences.CustomSeekBarPreference
             android:key="power_reboot_dialog_dim"
             android:title="@string/powermenu_dialog_dim"
             android:max="100"

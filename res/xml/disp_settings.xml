@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
             android:title="@string/power_menu_expanded_desktop"
             android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
 
-        <com.flash.settings.preferences.GlobalSettingSwitchPreference
+        <com.six.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wake_when_plugged_or_unplugged_title"
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
@@ -40,12 +40,12 @@
         <PreferenceScreen
             android:key="notification_light"
             android:title="@string/notification_light_title"
-            android:fragment="com.flash.settings.notificationlight.NotificationLightSettings" />
+            android:fragment="com.six.settings.notificationlight.NotificationLightSettings" />
 
         <PreferenceScreen
             android:key="battery_light"
             android:title="@string/battery_light_title"
-            android:fragment="com.flash.settings.notificationlight.BatteryLightSettings" />
+            android:fragment="com.six.settings.notificationlight.BatteryLightSettings" />
 
     </PreferenceCategory>
 

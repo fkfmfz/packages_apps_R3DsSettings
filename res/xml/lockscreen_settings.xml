@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,38 +20,31 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
-        <!-- <PreferenceScreen
-            android:title="@string/lockscreen_targets_message" >
-            <intent
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.flash.LockscreenShortcutsActivity" />
-        </PreferenceScreen> -->
-
         <PreferenceScreen
-            android:fragment="com.flash.settings.fragments.LockScreenItemsSettings"
+            android:fragment="com.six.settings.fragments.LockScreenItemsSettings"
             android:key="lockscreen_items"
             android:title="@string/lockscreen_items_settings_title"
             android:summary="@string/lockscreen_items_settings_title_summary" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_anywhere"
             android:title="@string/double_tap_sleep_anywhere_title"
             android:summary="@string/double_tap_sleep_anywhere_summary"
             android:defaultValue="false" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="keyguard_toggle_torch"
             android:title="@string/keyguard_torch_title"
             android:summary="@string/keyguard_torch_summary"
             android:defaultValue="false" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/media_art_title"
             android:summary="@string/media_art_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
@@ -63,25 +56,25 @@
         android:key="lockscreen_secure_options"
         android:title="@string/lockscreen_secure_options_title" >
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_scramble_pin_layout"
             android:title="@string/unlock_scramble_pin_layout_title"
             android:summary="@string/unlock_scramble_pin_layout_summary"
             android:defaultValue="false" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_pin_ripple"
             android:title="@string/lockscreen_pin_ripple_title"
             android:summary="@string/lockscreen_pin_ripple_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="fingerprint_success_vib"
             android:title="@string/fprint_sucess_vib_title"
             android:summary="@string/fprint_sucess_vib_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="fp_unlock_keystore"
             android:title="@string/fp_unlock_keystore_title"
             android:summary="@string/fp_unlock_keystore_summary"

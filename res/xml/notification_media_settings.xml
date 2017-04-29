@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 Flash ROM
+<!-- Copyright (C) 2017 SiXROM
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
         android:key="media_cat"
         android:title="@string/media_cat_title" >
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_vibrate"
             android:title="@string/dbl_tap_vib_title"
             android:summary="@string/dbl_tap_vib_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="headset_connect_player"
             android:title="@string/headset_connect_player_title"
             android:summary="@string/headset_connect_player_summary"
@@ -47,30 +47,30 @@
         </PreferenceScreen>
 
         <PreferenceScreen
-            android:fragment="com.flash.settings.fragments.HeadsUpSettings"
+            android:fragment="com.six.settings.fragments.HeadsUpSettings"
             android:key="heads_up_settings"
             android:title="@string/headsup_settings_title" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="status_bar_show_ticker"
             android:title="@string/ticker_title"
             android:summary="@string/ticker_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="status_bar_track_ticker"
             android:title="@string/track_ticker_title"
             android:summary="@string/track_ticker_summary"
             android:dependency="status_bar_show_ticker"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="battery_low_notification"
             android:title="@string/battery_low_notif_title"
             android:summary="@string/battery_low_notif_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="flashlight_notification"
             android:title="@string/flashlight_notification_title"
             android:summary="@string/flashlight_notification_summary"
