@@ -659,10 +659,6 @@
     <string name="track_ticker_title">Show music track changes</string>
     <string name="track_ticker_summary">When the track changes while playing music, the ticker will show the change.</string>
 
-    <!-- CPU info -->
-    <string name="show_cpu_title">Show CPU info</string>
-    <string name="show_cpu_summary">Screen overlay showing current CPU info</string>
-
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Suspend actions</string>

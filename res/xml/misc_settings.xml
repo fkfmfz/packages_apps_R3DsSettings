@@ -51,9 +51,4 @@
          settings:units="ms"
          android:persistent="false" />
 
-     <!-- <com.flash.settings.preferences.GlobalSettingSwitchPreference
-         android:key="show_cpu"
-         android:title="@string/show_cpu_title"
-         android:summary="@string/show_cpu_summary" /> -->
-
 </PreferenceScreen>
